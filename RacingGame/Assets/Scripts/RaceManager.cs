@@ -13,7 +13,7 @@ public class RaceManager : MonoBehaviour
 
     public CarController playerCar;
     public List<CarController> allAICars = new List<CarController>();
-    public int playerPosition;
+    static public int playerPosition;
     public float timeBetweenPosCheck = .2f;
     private float posChkCounter;
 
@@ -157,8 +157,46 @@ public class RaceManager : MonoBehaviour
         }
 
 
+
         UIManager.instance.resultsScreen.SetActive(true);
     }
 
+    /*public void SiguienteNivel()
+        
+    {
+        Scene ActiveScene = SceneManager.GetActiveScene();
+
+
+        if (playerPosition != 0 && playerPosition < 4)
+        {
+
+            switch (ActiveScene.name)
+            {
+                case "DayanaScenePrueba":
+
+
+                    SceneManager.LoadScene("NicolasScene");
+
+                    break;
+
+                case "NicolasScene":
+
+                    SceneManager.LoadScene("AlejandroScene");
+
+                    break;
+
+                case "AlejandroScene":
+
+                    SceneManager.LoadScene("MenuPrincipal");
+
+                    break;
+
+                default:
+                    break;
+            }
+
+        }
+
+    }*/
 
 }
