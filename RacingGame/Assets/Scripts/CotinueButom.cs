@@ -25,7 +25,7 @@ public class CotinueButom : MonoBehaviour
         Scene ActiveScene = SceneManager.GetActiveScene();
 
 
-        if (position != 0 && position < 4)
+        if (position < 4)
         {
 
             switch (ActiveScene.name)
