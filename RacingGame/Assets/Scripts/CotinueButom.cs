@@ -7,19 +7,16 @@ using UnityEngine.SceneManagement;
 public class CotinueButom : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int playerPosition_1;
-
-
+    public RaceManager playerPosition_1;
+    int position;
     void Start()
     {
-
-       playerPosition_1 = RaceManager.playerPosition;
-    }
+            }
 
     // Update is called once per frame
     void Update()
     {
-        SiguienteNivel();
+        position = playerPosition_1.playerPosition;
     }
 
     public void SiguienteNivel()
@@ -28,7 +25,7 @@ public class CotinueButom : MonoBehaviour
         Scene ActiveScene = SceneManager.GetActiveScene();
 
 
-        if (playerPosition_1 != 0 && playerPosition_1 < 4)
+        if (position != 0 && position < 4)
         {
 
             switch (ActiveScene.name)
@@ -53,9 +50,15 @@ public class CotinueButom : MonoBehaviour
                     break;
 
                 default:
+
+                    SceneManager.LoadScene("MenuPrincipal");
                     break;
             }
-
+            
+        }
+        else
+        {
+            SceneManager.LoadScene("MenuPrincipal");
         }
     }
 }
