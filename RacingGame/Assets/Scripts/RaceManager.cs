@@ -13,7 +13,7 @@ public class RaceManager : MonoBehaviour
 
     public CarController playerCar;
     public List<CarController> allAICars = new List<CarController>();
-    static public int playerPosition;
+    public int playerPosition;
     public float timeBetweenPosCheck = .2f;
     private float posChkCounter;
 
