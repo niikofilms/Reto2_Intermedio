@@ -9,6 +9,7 @@ public class CambiarNivel : MonoBehaviour
     public void CambiarEscena(string nombre)
 
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(nombre);
     }
 

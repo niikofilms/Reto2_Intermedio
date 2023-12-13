@@ -8,6 +8,7 @@ public class SceneResetter : MonoBehaviour
     public void ResetScene()
     {
         // Obtiene el índice de la escena actual y la recarga
+        Time.timeScale = 1;
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
