@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402218, g: 0.49316543, b: 0.572232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9250,6 +9250,7 @@ MonoBehaviour:
   - {fileID: 352484972}
   - {fileID: 1725916753}
   - {fileID: 2012379959}
+  playerPosition: 0
   timeBetweenPosCheck: 0.2
   aiDefaultSpeed: 30
   playerDefaultSpeed: 30
@@ -22073,6 +22074,7 @@ GameObject:
   - component: {fileID: 2094258367}
   - component: {fileID: 2094258366}
   - component: {fileID: 2094258365}
+  - component: {fileID: 2094258368}
   m_Layer: 5
   m_Name: 'Salir_Btn '
   m_TagString: Untagged
@@ -22144,13 +22146,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2094258368}
+        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22194,6 +22196,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094258363}
   m_CullTransparentMesh: 1
+--- !u!114 &2094258368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094258363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc95582569addb428ae73c7389cfd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098362602
 GameObject:
   m_ObjectHideFlags: 0
