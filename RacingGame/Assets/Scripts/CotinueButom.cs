@@ -58,7 +58,7 @@ public class CotinueButom : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("MenuPrincipal");
+            SceneManager.LoadScene(ActiveScene.name);
         }
     }
 }

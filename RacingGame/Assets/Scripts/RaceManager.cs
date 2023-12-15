@@ -136,22 +136,23 @@ public class RaceManager : MonoBehaviour
         {
             case 1:
                 UIManager.instance.raceResultText.text = "You finished 1st";
-
+                UIManager.instance.buttonText.text = "Continue";
                 break;
 
             case 2:
                 UIManager.instance.raceResultText.text = "You finished 2nd";
-
+                UIManager.instance.buttonText.text = "Continue";
                 break;
 
             case 3:
                 UIManager.instance.raceResultText.text = "You finished 3rd";
-
+                UIManager.instance.buttonText.text = "Continue";
                 break;
 
             default:
 
-                UIManager.instance.raceResultText.text = "You finished " + playerPosition + "th";
+                UIManager.instance.raceResultText.text = "You need to finish 3rd place or better" ;
+                UIManager.instance.buttonText.text = "Try again";
 
                 break;
         }

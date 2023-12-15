@@ -8194,26 +8194,6 @@ MonoBehaviour:
   - {fileID: 743616057}
   - {fileID: 221261096}
   - {fileID: 457808057}
-  - {fileID: 53375273}
-  - {fileID: 474148234}
-  - {fileID: 1664859824}
-  - {fileID: 1657303416}
-  - {fileID: 770150536}
-  - {fileID: 398830590}
-  - {fileID: 1481913735}
-  - {fileID: 1876761134}
-  - {fileID: 2034681034}
-  - {fileID: 1248612343}
-  - {fileID: 454157774}
-  - {fileID: 1590154835}
-  - {fileID: 1308729152}
-  - {fileID: 1236255275}
-  - {fileID: 234292654}
-  - {fileID: 325358214}
-  - {fileID: 1910115626}
-  - {fileID: 1858415601}
-  - {fileID: 453215585}
-  - {fileID: 780038484}
   totalLaps: 1
   playerCar: {fileID: 546053929}
   allAICars:
@@ -9782,7 +9762,7 @@ Transform:
   m_GameObject: {fileID: 770150534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40.24, y: 6.14, z: -2.95}
+  m_LocalPosition: {x: 40.24, y: 0.65, z: -2.95}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11741,6 +11721,7 @@ MonoBehaviour:
   countDownText: {fileID: 1595846318}
   goText: {fileID: 1666340221}
   raceResultText: {fileID: 398834826}
+  buttonText: {fileID: 435698563}
   resultsScreen: {fileID: 1832545140}
 --- !u!1 &964140086 stripped
 GameObject:
@@ -16710,8 +16691,8 @@ Transform:
   m_GameObject: {fileID: 1481913733}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.98, y: 0.5, z: -78.4}
-  m_LocalScale: {x: 10, y: 1, z: 1}
+  m_LocalPosition: {x: 40.2, y: 0.5, z: -67.1}
+  m_LocalScale: {x: 21.75619, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1518239103}
@@ -22179,8 +22160,8 @@ Transform:
   m_GameObject: {fileID: 1876761132}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.78, y: 0.5, z: -88.3}
-  m_LocalScale: {x: 8, y: 1, z: 1}
+  m_LocalPosition: {x: 40.24, y: 0.5, z: -101.9}
+  m_LocalScale: {x: 14.6528, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1518239103}
@@ -23553,7 +23534,7 @@ Transform:
   m_GameObject: {fileID: 2034681032}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.8, y: 0.5, z: -112.3}
+  m_LocalPosition: {x: 39.8, y: 0.5, z: -122.3}
   m_LocalScale: {x: 9, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
